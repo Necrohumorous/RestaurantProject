@@ -1,13 +1,59 @@
 * {
-    font-family: Tahoma;
+    font-family: 'Times New Roman';
 }
-
+div {
+    background-color: beige;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 16px;;
+    width: 680px;
+}
+h1{
+    background-color: beige;
+    
+    color: navy;
+    text-align: center;
+}
+h2{
+    color: navy;
+    font-weight: 900;
+    text-align: center;
+}
+.blogTitle {
+    font-size: xx-large;
+    color: beige;
+}
+body {
+    background-color: navy;
+}
 p {
     color: navy;
+    background-color: white;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 64px;
+    padding: 10px;
+    width: 640px;
+    font-size: large;
 }
-li{
-    color: grey;
+ul {
+    color: black;
+    background-color: gold;
+    border: 3px solid navy;
+    margin: auto;
+    margin-bottom: 48px;
+    width: 240px;
+    padding: 48px;
+    font-size: larger;
+}
+li {
+    line-height: 32px;
 }
 a {
-    color: red;
+    color: blue;
+}
+.addressFormat {
+    color: blue;
+    font-weight: bolder;
 }
